@@ -1,0 +1,274 @@
+html, body {
+    background-image: url("../images/full-bloom.png");
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin: auto;
+    height: 100%;
+    color:#777777;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -58px;
+    width: 100%;
+}
+
+.header-container {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #ffffff;
+    max-width: 100%;
+    height: 75px;
+}
+
+header {
+    max-width: 960px;
+    padding: 0px;
+    margin: auto;
+    overflow: auto;
+}
+
+#name {
+    float: left;
+    color: white;
+    width: 280px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 20px;
+    background-color: #4aaaa5;
+}
+
+ul {
+    list-style-type: none;
+    background-color: #ffffff;
+}
+
+#menu { 
+    margin: 0px;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: inline-block;
+    color: #777777;
+    padding: 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #4aaaa5;
+}
+
+h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    overflow: hidden;
+    color: #4aaaa5;
+    border-bottom: 3px #777777;
+    border-bottom-style: solid;
+    padding-bottom: 5px;
+    margin: 0px;
+}
+
+.main-container {
+    width: 918px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding:10px 20px 20px;
+    border: 1px #dddddd;
+    border-style: solid;
+    line-height: 2;
+}
+
+#profile-picture {
+    overflow: hidden;
+    float: left;
+    margin: 20px 10px 0px 0px;
+    padding-top: 3px;
+}
+
+.form {
+    padding: 10px 0px 20px 0px;
+}
+
+input[type=text] {
+    width: 900px;
+    margin: 8px 0px;
+    padding: 10px;
+    border: 1px solid #777777;
+}
+
+#message {
+    padding: 60px 10px;
+}
+
+.submit {
+    background-color: #4aaaa5;
+    color:  #ffffff;
+    padding: 8px 15px;
+    border: none;
+}
+
+.submit:hover {
+    background-color: #777777;
+}
+
+.column {
+    float: left;
+    position: relative;
+    width: 250px;
+    padding: 20px 20px 0px 0px;
+    line-height: 1;
+}
+
+#hangman-text {
+    position: absolute;
+    bottom: 10px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    width: 250px;
+}
+
+#rpggame-text {
+    position: absolute;
+    bottom: 10px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    width: 250px;
+}
+
+.row-1::after {
+    content:"";
+    clear: both;
+    display: table;;
+}
+
+#triviagame-text {
+    position: absolute;
+    bottom: 10px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    width: 250px;
+}
+
+#rutgersinfowidget-text {
+    position: absolute;
+    bottom: 10px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    width: 250px;
+}
+
+.row-2::after {
+    content:"";
+    clear: both;
+    display: table;
+}
+
+#rockpaperscissors-text {
+    position: absolute;
+    bottom: 10px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    width: 250px;
+}
+
+.row-3::after {
+    content:"";
+    clear: both;
+    display: table;
+}
+
+.footer, .push {
+    height: 50px;
+}
+
+.footer{
+    clear: both;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 8px #4aaaa5;
+    border-top-style: solid;
+    background-color: #666666;
+    color: #dddddd;
+    text-align: center;
+}
+
+#copyright {
+    padding: 10px 0px 0px 0px;
+}
+
+@media screen and (max-width: 980px) { 
+    .header-container {
+        width: 100%;
+     }
+
+    .main-container {
+        width: 100%;
+    }
+
+}
+ 
+  
+  
+  @media screen and (max-width: 768px) {
+    .header-container {
+        position: static;
+        width: 100%;
+     }
+ 
+    .main-container {
+        width: 100%;
+        margin: 40px 20px 0 20px;
+    }
+
+    p {
+        font-size: 1.25rem;
+    }
+
+}
+
+  
+  @media screen and (max-width: 640px) {
+    nav {
+        float:left;
+    }
+
+    #menu {
+        margin: auto;
+    }
+
+    .header-container {
+        position: static;
+        width: 100%;
+        height: 125px;
+     }
+
+     #name {
+        width: 100%;
+     }
+    
+    .main-container {
+        width: 100%;
+        margin: 40px 20px 0 20px;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+
+    #profile-picture {
+        float: none;
+        margin: auto;
+        height: 250px;
+        width: 250px;   
+   }
+}
